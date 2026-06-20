@@ -1,4 +1,4 @@
-<div style="background-image: url('https://media1.tenor.com/m/6_V2lZt21YMAAAAd/cirno-fumo.gif'); background-size: cover; background-position: center; padding: 20px; border-radius: 10px; color: white; text-shadow: 2px 2px 4px #000000;">
+
 
 # Hahairiwara-python2 
 basic python instruction 
@@ -53,4 +53,3 @@ pip freeze > requirements.txt
 # Install from a shared project
 pip install -r requirements.txt
 
-</div>
