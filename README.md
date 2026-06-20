@@ -1,4 +1,4 @@
-<div style="background-image: url('[https://media1.tenor.com/m/6_V2lZt21YMAAAAd/cirno-fumo.gif](https://media1.tenor.com/m/6_V2lZt21YMAAAAd/cirno-fumo.gif)'); background-size: cover; background-position: center; padding: 20px; border-radius: 10px; color: white; text-shadow: 2px 2px 4px #000000;">
+<div style="background-image: url('https://media1.tenor.com/m/25720587/h/fumodance-cirno-cirno-fumo-my-chemical-romance-neki.gif'); background-size: cover; background-position: center; padding: 20px; border-radius: 10px; color: black;">
 
     <h1>Hahairiwara-python2</h1>
     <p>Basic python instruction</p>
@@ -6,7 +6,7 @@
     <h3>Quick Start Guide</h3>
     <p>Follow these steps to set up every new project. <b>Always use a virtual environment.</b></p>
 
-    <pre>
+    <pre style="background: rgba(255,255,255,0.5); padding: 10px;">
 # Create the environment
 python -m venv .venv
 
@@ -35,7 +35,7 @@ source .venv/bin/activate
     </ul>
 
     <h3>#ONLY INSTALL WHAT YOU NEED</h3>
-    <pre>
+    <pre style="background: rgba(255,255,255,0.5); padding: 10px;">
 # Save your library list
 pip freeze > requirements.txt
 
