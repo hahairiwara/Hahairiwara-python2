@@ -1,15 +1,12 @@
+<div style="background-image: url('[https://media1.tenor.com/m/6_V2lZt21YMAAAAd/cirno-fumo.gif](https://media1.tenor.com/m/6_V2lZt21YMAAAAd/cirno-fumo.gif)'); background-size: cover; background-position: center; padding: 20px; border-radius: 10px; color: white; text-shadow: 2px 2px 4px #000000;">
 
+    <h1>Hahairiwara-python2</h1>
+    <p>Basic python instruction</p>
 
-# Hahairiwara-python2 
-basic python instruction 
+    <h3>Quick Start Guide</h3>
+    <p>Follow these steps to set up every new project. <b>Always use a virtual environment.</b></p>
 
-
-
- Quick Start Guide
-Follow these steps to set up every new project. **Always use a virtual environment.**
-
- 1. Setup 
-```bash
+    <pre>
 # Create the environment
 python -m venv .venv
 
@@ -18,38 +15,32 @@ python -m venv .venv
 .venv\Scripts\activate
 # macOS/Linux:
 source .venv/bin/activate
+    </pre>
 
-#Library
-Install a library
-example: pip install pandas
+    <h3>Library</h3>
+    <p>Install a library: <code>pip install pandas</code></p>
 
-sum basic libraries
+    <h3>Some basic libraries</h3>
+    <ul>
+        <li><b>requests:</b> Fetches web data</li>
+        <li><b>pandas:</b> Analyzes data spreadsheets</li>
+        <li><b>numpy:</b> Does heavy math</li>
+        <li><b>matplotlib:</b> Creates cool charts</li>
+        <li><b>pillow:</b> Edits image files</li>
+        <li><b>beautifulsoup4:</b> Scrapes website content</li>
+        <li><b>pygame:</b> Builds simple games</li>
+        <li><b>flask:</b> Makes simple websites</li>
+        <li><b>pyperclip:</b> Copies text automatically</li>
+        <li><b>pyttsx3:</b> Converts text speech</li>
+    </ul>
 
-requests,Fetches web data
-
-pandas,Analyzes data spreadsheets
-
-numpy,Does heavy math
-
-matplotlib,Creates cool charts
-
-pillow,Edits image files
-
-beautifulsoup4,Scrapes website content
-
-pygame,Builds simple games
-
-flask,Makes simple websites
-
-pyperclip,Copies text automatically
-
-pyttsx3,Converts text speech
-
-#ONLY INSTALL WHAT YOU NEED
-
-# Save your library list (so you can share your project)
+    <h3>#ONLY INSTALL WHAT YOU NEED</h3>
+    <pre>
+# Save your library list
 pip freeze > requirements.txt
 
 # Install from a shared project
 pip install -r requirements.txt
+    </pre>
 
+</div>
