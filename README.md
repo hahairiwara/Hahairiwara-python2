@@ -1,12 +1,14 @@
-<div style="background-image: url('https://media1.tenor.com/m/25720587/h/fumodance-cirno-cirno-fumo-my-chemical-romance-neki.gif'); background-size: cover; background-position: center; padding: 20px; border-radius: 10px; color: black;">
+<table style="width:100%; background-image: url('https://media1.tenor.com/m/6_V2lZt21YMAAAAd/cirno-fumo.gif'); background-size: cover; background-position: center; border-radius: 10px;">
+  <tr>
+    <td style="padding: 20px; color: black; background: rgba(255, 255, 255, 0.7);">
 
-    <h1>Hahairiwara-python2</h1>
-    <p>Basic python instruction</p>
+      <h1>Hahairiwara-python2</h1>
+      <p>Basic python instruction</p>
 
-    <h3>Quick Start Guide</h3>
-    <p>Follow these steps to set up every new project. <b>Always use a virtual environment.</b></p>
+      <h3>Quick Start Guide</h3>
+      <p>Follow these steps to set up every new project. <b>Always use a virtual environment.</b></p>
 
-    <pre style="background: rgba(255,255,255,0.5); padding: 10px;">
+      <pre>
 # Create the environment
 python -m venv .venv
 
@@ -15,13 +17,13 @@ python -m venv .venv
 .venv\Scripts\activate
 # macOS/Linux:
 source .venv/bin/activate
-    </pre>
+      </pre>
 
-    <h3>Library</h3>
-    <p>Install a library: <code>pip install pandas</code></p>
+      <h3>Library</h3>
+      <p>Install a library: <code>pip install pandas</code></p>
 
-    <h3>Some basic libraries</h3>
-    <ul>
+      <h3>Some basic libraries</h3>
+      <ul>
         <li><b>requests:</b> Fetches web data</li>
         <li><b>pandas:</b> Analyzes data spreadsheets</li>
         <li><b>numpy:</b> Does heavy math</li>
@@ -32,15 +34,17 @@ source .venv/bin/activate
         <li><b>flask:</b> Makes simple websites</li>
         <li><b>pyperclip:</b> Copies text automatically</li>
         <li><b>pyttsx3:</b> Converts text speech</li>
-    </ul>
+      </ul>
 
-    <h3>#ONLY INSTALL WHAT YOU NEED</h3>
-    <pre style="background: rgba(255,255,255,0.5); padding: 10px;">
+      <h3>#ONLY INSTALL WHAT YOU NEED</h3>
+      <pre>
 # Save your library list
 pip freeze > requirements.txt
 
 # Install from a shared project
 pip install -r requirements.txt
-    </pre>
+      </pre>
 
-</div>
+    </td>
+  </tr>
+</table>
