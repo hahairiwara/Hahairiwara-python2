@@ -1,2 +1,3 @@
 # Hahairiwara-python2
-small python guide :)
+small python # 
+pip install requests
