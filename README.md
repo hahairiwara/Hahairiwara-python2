@@ -30,6 +30,6 @@ Install a library example: pip install pandas
 * **pyperclip:** Copies text automatically
 * **pyttsx3:** Converts text speech
 
-### #ONLY INSTALL WHAT YOU NEED
+### ONLY INSTALL WHAT YOU NEED
 pip freeze > requirements.txt
 pip install -r requirements.txt
